@@ -6,7 +6,7 @@ Before you begin you will need to edit the Constants.java file to use your own a
 https://trello.com/1/connect?key=YOUR_APPLICATION_KEY_HERE&name=TrelloTest&response_type=token&scope=read,write
 
 Compile with the following command:
-javac -cp "path\to\lib\*" TrelloClient.java TrelloRequest.java TrelloRequestFactory.java TrelloDelete.java TrelloPost.java TrelloPut.java CreateCardTest.java TrelloTestSuite.java TestRunner.java Constants.java
+`javac -cp "path\to\lib\*" TrelloClient.java TrelloRequest.java TrelloRequestFactory.java TrelloDelete.java TrelloPost.java TrelloPut.java CreateCardTest.java TrelloTestSuite.java TestRunner.java Constants.java`
 
 We can run the entire suite of tests by running the TestRunner class via the following command (assuming the current directory is the src folder):
-java -cp .;"path\to\lib\*" TestRunner
+`java -cp .;"path\to\lib\*" TestRunner`
