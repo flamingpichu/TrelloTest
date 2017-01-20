@@ -8,7 +8,9 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 
 @Suite.SuiteClasses({
-      CreateCardTest.class
+      CreateCardTest.class,
+      EditCardTest.class,
+      DeleteCardTest.class
 })
 
 public class TrelloTestSuite {

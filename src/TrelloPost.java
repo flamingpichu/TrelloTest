@@ -22,7 +22,6 @@ public class TrelloPost implements TrelloRequest {
          builder.add(entry.getKey(), entry.getValue());
       }
       JsonObject json = builder.build();
-      System.out.println("post request: " + json.toString());
       StringEntity input = new StringEntity(json.toString(), ContentType.APPLICATION_JSON);
       postRequest.setEntity(input);
       this.request = postRequest;

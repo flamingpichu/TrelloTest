@@ -9,7 +9,7 @@ import javax.json.JsonObjectBuilder;
 import java.util.Map;
 
 /**
- * Created by Jonathan on 1/19/2017.
+ * This class prepares a HTTP PUT request for the Trello API
  */
 public class TrelloPut implements TrelloRequest {
 
